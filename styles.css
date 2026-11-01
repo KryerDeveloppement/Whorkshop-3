@@ -1,0 +1,143 @@
+  /* Mise en forme globale */
+
+  *{
+    font-family: "Heebo", "Poppins",sans-serif;
+  }
+
+  /* Mise en forme du header*/
+
+#emplacement_menu{
+    background: white;
+    position: sticky;
+    top: 0;
+  }
+
+  nav{
+    color: #000;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1200px;
+    margin: 20px auto;
+  }
+
+  #navigation{
+    display:flex;
+    gap: 60px;
+  }
+
+  .menu{
+    font-size:20px;
+    font-weight: 700;
+    text-decoration: none;
+  }
+
+  /* Mise en forme du Hero*/
+
+  #hero{
+    display: flex;
+    justify-content: space-between;
+    width: 1200px;
+    margin: auto;
+    padding-top:100px;
+    padding-bottom: 100px;
+  }
+
+  h1{
+    color:#21243D;
+    font-size: 44px;
+    font-weight: 700;
+    width: 506px;
+    height: 105px;
+  }
+
+  .main_paragraph{
+    color : #21243D;
+    text-align: justify;
+    width: 608px;
+    height: 66px;
+    margin:45px 0px;
+  }
+
+  #cv_download{
+    color:white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    background: #FF6464;
+    border-radius: 2px;
+    padding: 10px 13px;
+}
+
+#imghero{
+position: relative;
+width: 243px; 
+height: 243px;
+}
+
+#imghero img{
+  position: absolute; /* Sort les images du flux normal */
+  top: 0;
+  left: 0;
+  width: 100%;        /* Force l'image à occuper tout le conteneur */
+  height: 100%;
+  object-fit: cover;
+}
+
+.surface{
+    z-index: 2;
+}
+
+.ombre{
+    z-index: 1;
+    transform: translate(-10px, 10px);
+}
+
+/* Mise en forme du blog */
+
+#blog{
+    background: #EDF7FA;
+}
+
+#nav_blog{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    width: 1200px;
+    margin: auto;
+}
+
+h2{
+    color:#21243D;
+    font-size: 22px;
+    font-weight: 400;
+}
+
+#plus_articles{
+    color: #00A8CC;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+#list_blog{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    width: 1200px;
+    margin:auto;
+    gap:75px;
+}
+
+.boite_article{
+    background: white;
+    border-radius: 4px;
+    width: 543px;
+    height:295px ;
+}
+
+h3{
+    color:#21243D;
+    font-size: 26px;
+    font-weight: 700;
+    width: 374px;
+}
