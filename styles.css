@@ -137,7 +137,7 @@ h2{
     box-shadow: 0px 4px 10px 0px rgba(187, 225, 250, 0.25);
 }
 
-h3{
+.titre_article{
     color:#21243D;
     font-size: 26px;
     font-weight: 700;
@@ -162,4 +162,63 @@ h3{
     padding-left:20px;
     color:#21243D;
     text-align: justify;
+}
+
+/* Mise en forme du portfolio */
+
+#projet{
+  width: 1200px;
+  margin: auto;
+  padding-top: 30px;
+}
+
+.boite_projet{
+  display: flex;
+  align-items: flex-start;
+  gap:85px;
+  padding-top:30px;
+  padding-bottom: 20px;
+  border-bottom :1px solid #E0E0E0;
+}
+
+.image_projet{
+  width: 246px;
+  height: 180px;
+}
+
+.titre_projet{
+  color: #21243D  ;
+  font-size: 30px;
+  font-weight: 700;
+  margin-top:0px;
+  line-height: 1; 
+}
+
+.ref_projet{
+  display: flex;
+  align-items: center;
+  gap: 75px;
+}
+
+.projet_date{
+  color : #FFFFFF;
+  font-size:18px;
+  font-weight: 900;
+  background: #142850;
+  border-radius: 16px;
+  padding: 1px 10px;
+}
+
+.projet_type{
+  color : #8695A4;
+  font-size: 20px;
+  font-weight: 400;
+
+}
+
+.descrip_projet{
+  color: #21243D;
+  font-size: 16px ;
+  font-weight: 400;
+  width: 837px;
 }
