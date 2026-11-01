@@ -85,11 +85,11 @@ height: 243px;
 }
 
 .surface{
-    z-index: 2;
+    z-index: -1;
 }
 
 .ombre{
-    z-index: 1;
+    z-index: -2;
     transform: translate(-10px, 10px);
 }
 
@@ -97,6 +97,7 @@ height: 243px;
 
 #blog{
     background: #EDF7FA;
+    padding-bottom: 30px;
 }
 
 #nav_blog{
@@ -133,6 +134,7 @@ h2{
     border-radius: 4px;
     width: 543px;
     height:295px ;
+    box-shadow: 0px 4px 10px 0px rgba(187, 225, 250, 0.25);
 }
 
 h3{
@@ -140,4 +142,24 @@ h3{
     font-size: 26px;
     font-weight: 700;
     width: 374px;
+    padding-left: 20px;
+}
+
+.ref_article{
+  display:flex;
+  gap:50px;
+  font-size:18px;
+  font-weight:400;
+  padding-left:20px;
+  color:#21243D;
+}
+
+.blog_paragraph{
+    font-size: 16px;
+    font-weight: 400;
+    width: 457px;
+    height: 117px;
+    padding-left:20px;
+    color:#21243D;
+    text-align: justify;
 }
