@@ -17,7 +17,10 @@
     display:flex;
     justify-content: space-between;
     align-items: center;
-    width: 1200px;
+    max-width: 1200px;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
     margin: 20px auto;
   }
 
@@ -38,10 +41,14 @@
   #hero{
     display: flex;
     justify-content: space-between;
-    width: 1200px;
+    max-width: 1200px;
     margin: auto;
     padding-top:100px;
     padding-bottom: 100px;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+    gap:20px;
   }
 
   h1{
@@ -49,14 +56,12 @@
     font-size: 44px;
     font-weight: 700;
     width: 506px;
-    height: 105px;
   }
 
   .main_paragraph{
     color : #21243D;
     text-align: justify;
-    width: 608px;
-    height: 66px;
+    max-width: 608px;
     margin:45px 0px;
   }
 
@@ -72,8 +77,9 @@
 
 #imghero{
 position: relative;
-width: 243px; 
-height: 243px;
+width: 100%; 
+max-width: 243px;
+aspect-ratio: 1/1;
 }
 
 #imghero img{
@@ -82,7 +88,7 @@ height: 243px;
   left: 0;
   width: 100%;        /* Force l'image à occuper tout le conteneur */
   height: 100%;
-  object-fit: cover;
+  object-fit: contain;
 }
 
 .surface{
@@ -91,7 +97,7 @@ height: 243px;
 
 .ombre{
     z-index: -2;
-    transform: translate(-10px, 10px);
+    transform: translate(-4%, 4%);
 }
 
 /* Mise en forme du blog */
@@ -99,13 +105,17 @@ height: 243px;
 #blog{
     background: #EDF7FA;
     padding-bottom: 30px;
+    max-width: 100%;
 }
 
 #nav_blog{
     display: flex;
     justify-content: space-between;
     align-content: center;
-    width: 1200px;
+    max-width: 1200px;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
     margin: auto;
 }
 
@@ -125,8 +135,11 @@ h2{
     display: flex;
     justify-content:space-between;
     align-items: center;
-    width: 1200px;
+    max-width: 1200px;
     margin:auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
     gap:75px;
 }
 
@@ -134,7 +147,8 @@ h2{
     background: white;
     border-radius: 4px;
     width: 543px;
-    height:295px ;
+    max-width: 50%;
+    padding-bottom: 30px;
     box-shadow: 0px 4px 10px 0px rgba(187, 225, 250, 0.25);
 }
 
@@ -142,8 +156,9 @@ h2{
     color:#21243D;
     font-size: 26px;
     font-weight: 700;
-    width: 374px;
+    max-width: 374px;
     padding-left: 20px;
+    padding-right: 15px;
 }
 
 .ref_article{
@@ -152,15 +167,16 @@ h2{
   font-size:18px;
   font-weight:400;
   padding-left:20px;
+   padding-right: 15px;
   color:#21243D;
 }
 
 .blog_paragraph{
     font-size: 16px;
     font-weight: 400;
-    width: 457px;
-    height: 117px;
+    max-width: 457px;
     padding-left:20px;
+    padding-right: 15px;
     color:#21243D;
     text-align: justify;
 }
@@ -168,9 +184,12 @@ h2{
 /* Mise en forme du portfolio */
 
 #projet{
-  width: 1200px;
+  max-width: 1200px;
   margin: auto;
   padding-top: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+  box-sizing: border-box;
 }
 
 .boite_projet{
@@ -221,15 +240,18 @@ h2{
   color: #21243D;
   font-size: 16px ;
   font-weight: 400;
-  width: 837px;
+  max-width: 837px;
 }
 
 /* Mise en forme Page de contact */
 
 #contact{
-  width: 1200px;
+  max-width: 1200px;
   margin: auto;
   padding-top: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+  box-sizing: border-box;
 }
 
 #moyens_contact{
