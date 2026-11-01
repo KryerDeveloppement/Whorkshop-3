@@ -222,3 +222,114 @@ h2{
   font-weight: 400;
   width: 837px;
 }
+
+/* Mise en forme Page de contact */
+
+#contact{
+  width: 1200px;
+  margin: auto;
+  padding-top: 30px;
+}
+
+#moyens_contact{
+  display:flex;
+  align-items: center;
+  gap: 50px;
+}
+
+#cta_contact{
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.intro_contact{
+  font-size:36px;
+  font-weight: 800;
+  margin-bottom: 0px;
+}
+
+#paragraph_contact{
+  font-size: 20px;
+  font-weight: 400;
+  text-align: justify;
+  padding-right: 30px;
+}
+
+h4{
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 0px;
+}
+
+#adresse_mail{
+  font-size: 16px;
+  font-weight: 400;
+}
+
+#reseaux_sociaux{
+  display: flex;
+  flex-direction: column;
+  gap:20px;
+}
+
+.lien_externe{
+  font-size: 16px;
+  font-weight: 400;
+  color: black;
+
+}
+
+#formulaire_contact{
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  width: 563px;
+}
+
+.label{
+  font-size: 14px;
+  font-weight: 400;
+  margin-bottom: 15px;
+  margin-top: 30px;
+}
+
+#name,#mail,#services,#budget{
+  font-size: 14px;
+  font-weight: 300;
+  background: #F7F7F7;
+  border: none;
+  height: 46px;
+  padding-left: 10px;
+}
+
+#message{
+  background: #F7F7F7;
+  border: none;
+  height: 201px;
+  padding-left: 10px;
+}
+
+#bouton_formulaire{
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+  background: black;
+  height: 56px;
+  border: none;
+  margin-top: 25px;
+
+}
+
+select{
+  color:black;          /* couleur normale */
+}
+
+select:invalid{
+  color: #B2B2B2;         /* couleur de l'option par défaut */
+}
+
+/* Les vraies options gardent la couleur normale dans la liste déroulante */
+select option{
+  color: black;
+}
