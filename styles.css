@@ -333,3 +333,21 @@ select:invalid{
 select option{
   color: black;
 }
+
+/* Mise en page du Footer */
+
+#footer{
+  margin-top: 120px;
+  text-align: center;
+}
+
+.lien_social{
+  margin : 5px 15px ;
+}
+
+#copyright{
+  font-size: 14px;
+  font-weight: 400;
+  color: #21243D;
+  margin-bottom: 50px;
+}
